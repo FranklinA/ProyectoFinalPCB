@@ -1,0 +1,23 @@
+Reference, Value, Footprint, Datasheet, MP, Description, Availability, MF, Price
+U3,FT231XS,RF_Modules:Digi_XBee_SMT,SSOP-20 FTDI,FT231XS,I/F%2C USB2.0 FS TO F/L H/S UART%2C 20SSOP%3B USB Type%3A Transceiver%3B USB Version%3A 2.0%3B Data Rate%3A 3Mbaud%3B Supply Voltage Ra...,Warning,FTDI,2.63 USD
+C4,0.1uF,Capacitors_SMD:C_0603_HandSoldering,
+C1,0.1uF,Capacitors_SMD:C_0603_HandSoldering,
+C2,47pF,Capacitors_SMD:C_0603_HandSoldering,
+C3,47pF,Capacitors_SMD:C_0603_HandSoldering,
+R4,27,RESC1608X55,0603 Panasonic,ERJ-3GEYJ270V,Resistor Thick Film 0603 27 Ohm 5%25 1/10 Watt %C2%B1200ppm %C2%B0C Surface Mount Punched Carrier Tape and Reel,Good,Panasonic,0.01 USD
+R3,27,RESC1608X55,0603 Panasonic,ERJ-3GEYJ270V,Resistor Thick Film 0603 27 Ohm 5%25 1/10 Watt %C2%B1200ppm %C2%B0C Surface Mount Punched Carrier Tape and Reel,Good,Panasonic,0.01 USD
+D1,LED VERDE,LEDs:LED_0603_HandSoldering,
+D2,LED ROJO,LEDs:LED_0603_HandSoldering,
+R1,1k,Resistors_SMD:R_0603_HandSoldering,
+R2,1k,Resistors_SMD:R_0603_HandSoldering,
+U1,MICRO-B_USB,Connect:USB_B,
+U2,MIC5219-3.3BM5,TO_SOT_Packages_SMD:TSOT-23-5_HandSoldering,
+C5,10uF,Capacitors_SMD:CP_Elec_8x10,
+C6,0.1uF,Capacitors_SMD:C_0603_HandSoldering,
+D3,LED VERDE,LEDs:LED_0603_HandSoldering,
+D4,LED ROJO,LEDs:LED_0603_HandSoldering,
+R5,330,Resistors_SMD:R_0603_HandSoldering,
+R6,1k,Resistors_SMD:R_0603_HandSoldering,
+SW501,SPST,Measurement_Points:Test_Point_2Pads,
+U4,XB24-Z7WIT-004,Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm,DIP-20 Digi International,XB24-Z7WIT-004,Xbee Zb %28Zigbee Pro Feature Set%29%2C 1mw%2C Wire Antenna%2C 250000,Unavailable,Digi International,None
+XA1,Conn_Poncho2P_2x_20x2,pf:Conn_Poncho_Derecha,
