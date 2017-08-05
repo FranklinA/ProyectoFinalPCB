@@ -1,8 +1,9 @@
 LICENSE:
-/* Copyright (c) 2014, ACSE & CADIEEL
- *    ACSE   : http://www.sase.com.ar/asociacion-civil-sistemas-embebidos/ciaa/
- *    CADIEEL: http://www.cadieel.org.ar
- * Copyright (c) 2014, UNER - Universidad nacional de Entre Rios: http://www.uner.edu.ar 
+/* Copyright (c) 2017, Franklin Angulo
+ *    Nombre y Apellido: Franklin Angulo
+ *    e-mail:angulofranklin@hotmail.com
+ *    http://www.sase.com.ar/asociacion-civil-sistemas-embebidos/ciaa/
+ * Copyright (c) 2017
  * 
  * This file is part of CIAA Hardware.
  *

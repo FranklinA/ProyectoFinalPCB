@@ -28,12 +28,6 @@ LIBS:opto
 LIBS:atmel
 LIBS:contrib
 LIBS:valves
-LIBS:ej2cese
-LIBS:FT231XS
-LIBS:ERJ-3GEYJ270V
-LIBS:XB24-Z7WIT-004
-LIBS:edu-ciaa-nxp
-LIBS:trabajo_final-cache
 LIBS:ProFinalKicadV1-cache
 EELAYER 25 0
 EELAYER END
@@ -44,10 +38,10 @@ Title "XBee-Poncho EDU-CIAA-NXP"
 Date "2017-07-16"
 Rev "V1.3"
 Comp "Estudiante: Ing. Franklin Angulo / Docente: Ing. Diego Brengi"
-Comment1 "Revisor designado V1.0: Ing. Gaston Cocce || Archivos de revisiones en... /doc"
-Comment2 "Revisor designado V1.1: Diego Brengi || Archivos de revisiones en... /doc"
-Comment3 "Revisor designado V1.2: Diego Brengi || Archivos de revisiones en... /doc"
-Comment4 "Licencia BSD || en... /doc"
+Comment1 "Revisor designado V1.0: Ing. Gaston Cocce || Archivos de revisiones en... /Doc"
+Comment2 "Revisor designado V1.1: Diego Brengi || Archivos de revisiones en... /Doc"
+Comment3 "Revisor designado V1.2: Diego Brengi || Archivos de revisiones en... /Doc"
+Comment4 "Licencia BSD || en... /Doc"
 $EndDescr
 $Comp
 L FT231XS U3
@@ -57,11 +51,13 @@ F 0 "U3" H 5050 2350 50  0000 L BNN
 F 1 "FT231XS" H 4950 2450 50  0000 L BNN
 F 2 "RF_Modules:Digi_XBee_SMT" H 4800 3550 50  0001 L BNN
 F 3 "SSOP-20 FTDI" H 4800 3450 50  0001 L BNN
-F 4 "FT231XS" H 4800 3350 50  0001 L BNN "MP"
+F 4 "FT231XS" H 4800 3350 50  0001 L BNN "MP_odl"
 F 5 "I/F%2C USB2.0 FS TO F/L H/S UART%2C 20SSOP%3B USB Type%3A Transceiver%3B USB Version%3A 2.0%3B Data Rate%3A 3Mbaud%3B Supply Voltage Ra..." H 4800 3250 50  0001 L BNN "Description"
 F 6 "Warning" H 4800 3150 50  0001 L BNN "Availability"
-F 7 "FTDI" H 4800 3050 50  0001 L BNN "MF"
-F 8 "2.63 USD" H 4800 2950 50  0001 L BNN "Price"
+F 7 "2.63 USD" H 4800 2950 50  0001 L BNN "Price_aprox"
+F 8 "768-1129-1-ND" H 5150 2650 60  0001 C CNN "Digikey#"
+F 9 "FTDI, Future Technology Devices International Ltd" H 5150 2650 60  0001 C CNN "Manf"
+F 10 "FT231XS-R" H 5150 2650 60  0001 C CNN "Manf#"
 	1    5150 2650
 	1    0    0    -1  
 $EndComp
@@ -73,6 +69,9 @@ F 0 "C4" H 3325 2000 50  0000 L CNN
 F 1 "0.1uF" H 3325 1800 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3338 1750 50  0001 C CNN
 F 3 "" H 3300 1900 50  0000 C CNN
+F 4 "311-1343-1-ND" H 3300 1900 60  0001 C CNN "Digikey#"
+F 5 "Yageo" H 3300 1900 60  0001 C CNN "Manf"
+F 6 "CC0603ZRY5V9BB104" H 3300 1900 60  0001 C CNN "Manf#"
 	1    3300 1900
 	1    0    0    -1  
 $EndComp
@@ -84,6 +83,9 @@ F 0 "C1" H 9775 4700 50  0000 L CNN
 F 1 "0.1uF" H 9775 4500 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 9788 4450 50  0001 C CNN
 F 3 "" H 9750 4600 50  0000 C CNN
+F 4 "MCT0603-1.00K-CFTR-ND" H 9750 4600 60  0001 C CNN "Digikey#"
+F 5 "Vishay Beyschlag" H 9750 4600 60  0001 C CNN "Manf"
+F 6 "MCT06030C1001FP500" H 9750 4600 60  0001 C CNN "Manf#"
 	1    9750 4600
 	1    0    0    -1  
 $EndComp
@@ -92,9 +94,12 @@ L C C2
 U 1 1 596C76FB
 P 3100 2800
 F 0 "C2" H 3125 2900 50  0000 L CNN
-F 1 "47pF" H 3125 2700 50  0000 L CNN
+F 1 "47pF" H 2900 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3138 2650 50  0001 C CNN
 F 3 "" H 3100 2800 50  0000 C CNN
+F 4 "445-1277-1-ND" H 3100 2800 60  0001 C CNN "Digikey#"
+F 5 "TDK Corporation" H 3100 2800 60  0001 C CNN "Manf"
+F 6 "C1608C0G1H470J080AA" H 3100 2800 60  0001 C CNN "Manf#"
 	1    3100 2800
 	1    0    0    -1  
 $EndComp
@@ -106,6 +111,9 @@ F 0 "C3" H 3375 2900 50  0000 L CNN
 F 1 "47pF" H 3375 2700 50  0000 L CNN
 F 2 "Capacitors_SMD:C_0603_HandSoldering" H 3388 2650 50  0001 C CNN
 F 3 "" H 3350 2800 50  0000 C CNN
+F 4 "445-1277-1-ND" H 3350 2800 60  0001 C CNN "Digikey#"
+F 5 "TDK Corporation" H 3350 2800 60  0001 C CNN "Manf"
+F 6 "C1608C0G1H470J080AA" H 3350 2800 60  0001 C CNN "Manf#"
 	1    3350 2800
 	1    0    0    -1  
 $EndComp
@@ -117,11 +125,11 @@ F 0 "R4" H 3550 2550 50  0000 L BNN
 F 1 "27" H 3750 2550 50  0000 L BNN
 F 2 "RESC1608X55" H 3700 2650 50  0001 L BNN
 F 3 "0603 Panasonic" H 3700 2650 50  0001 L BNN
-F 4 "ERJ-3GEYJ270V" H 3700 2650 50  0001 L BNN "MP"
-F 5 "Resistor Thick Film 0603 27 Ohm 5%25 1/10 Watt %C2%B1200ppm %C2%B0C Surface Mount Punched Carrier Tape and Reel" H 3700 2650 50  0001 L BNN "Description"
-F 6 "Good" H 3700 2650 50  0001 L BNN "Availability"
-F 7 "Panasonic" H 3700 2650 50  0001 L BNN "MF"
-F 8 "0.01 USD" H 3700 2650 50  0001 L BNN "Price"
+F 4 "Resistor Thick Film 0603 27 Ohm 5%25 1/10 Watt %C2%B1200ppm %C2%B0C Surface Mount Punched Carrier Tape and Reel" H 3700 2650 50  0001 L BNN "Description"
+F 5 "Good" H 3700 2650 50  0001 L BNN "Availability"
+F 6 "P27GCT-ND" H 3700 2650 60  0001 C CNN "Digikey#"
+F 7 "Panasonic Electronic Components" H 3700 2650 60  0001 C CNN "Manf"
+F 8 "ERJ-3GEYJ270V" H 3700 2650 60  0001 C CNN "Manf#"
 	1    3700 2650
 	1    0    0    -1  
 $EndComp
@@ -133,11 +141,11 @@ F 0 "R3" H 3550 2509 50  0000 L BNN
 F 1 "27" H 3700 2500 50  0000 L BNN
 F 2 "RESC1608X55" H 3700 2450 50  0001 L BNN
 F 3 "0603 Panasonic" H 3700 2450 50  0001 L BNN
-F 4 "ERJ-3GEYJ270V" H 3700 2450 50  0001 L BNN "MP"
-F 5 "Resistor Thick Film 0603 27 Ohm 5%25 1/10 Watt %C2%B1200ppm %C2%B0C Surface Mount Punched Carrier Tape and Reel" H 3700 2450 50  0001 L BNN "Description"
-F 6 "Good" H 3700 2450 50  0001 L BNN "Availability"
-F 7 "Panasonic" H 3700 2450 50  0001 L BNN "MF"
-F 8 "0.01 USD" H 3700 2450 50  0001 L BNN "Price"
+F 4 "Resistor Thick Film 0603 27 Ohm 5%25 1/10 Watt %C2%B1200ppm %C2%B0C Surface Mount Punched Carrier Tape and Reel" H 3700 2450 50  0001 L BNN "Description"
+F 5 "Good" H 3700 2450 50  0001 L BNN "Availability"
+F 6 "P27GCT-ND" H 3700 2450 60  0001 C CNN "Digikey#"
+F 7 "Panasonic Electronic Components" H 3700 2450 60  0001 C CNN "Manf"
+F 8 "ERJ-3GEYJ270V" H 3700 2450 60  0001 C CNN "Manf#"
 	1    3700 2450
 	1    0    0    -1  
 $EndComp
@@ -149,6 +157,9 @@ F 0 "D1" H 2450 3050 50  0000 C CNN
 F 1 "LED VERDE" H 2500 2850 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 2450 2950 50  0001 C CNN
 F 3 "" H 2450 2950 50  0000 C CNN
+F 4 "475-2920-1-ND" H 2450 2950 60  0001 C CNN "Digikey#"
+F 5 "OSRAM Opto Semiconductors Inc." H 2450 2950 60  0001 C CNN "Manf"
+F 6 "LP L296-J2L2-25-Z" H 2450 2950 60  0001 C CNN "Manf#"
 	1    2450 2950
 	0    -1   -1   0   
 $EndComp
@@ -160,6 +171,9 @@ F 0 "D2" H 2150 3050 50  0000 C CNN
 F 1 "LED ROJO" H 2200 2850 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 2150 2950 50  0001 C CNN
 F 3 "" H 2150 2950 50  0000 C CNN
+F 4 "475-2512-1-ND" H 2150 2950 60  0001 C CNN "Digikey#"
+F 5 "OSRAM Opto Semiconductors Inc." H 2150 2950 60  0001 C CNN "Manf"
+F 6 "LS Q976-NR-1" H 2150 2950 60  0001 C CNN "Manf#"
 	1    2150 2950
 	0    -1   -1   0   
 $EndComp
@@ -171,6 +185,9 @@ F 0 "R1" V 2530 2600 50  0000 C CNN
 F 1 "1k" V 2450 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2380 2600 50  0001 C CNN
 F 3 "" H 2450 2600 50  0000 C CNN
+F 4 "MCT0603-1.00K-CFTR-ND" V 2450 2600 60  0001 C CNN "Digikey#"
+F 5 "Vishay Beyschlag" V 2450 2600 60  0001 C CNN "Manf"
+F 6 "MCT06030C1001FP500" V 2450 2600 60  0001 C CNN "Manf#"
 	1    2450 2600
 	-1   0    0    1   
 $EndComp
@@ -182,6 +199,9 @@ F 0 "R2" V 2230 2600 50  0000 C CNN
 F 1 "1k" V 2150 2600 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 2080 2600 50  0001 C CNN
 F 3 "" H 2150 2600 50  0000 C CNN
+F 4 "MCT0603-1.00K-CFTR-ND" V 2150 2600 60  0001 C CNN "Digikey#"
+F 5 "Vishay Beyschlag" V 2150 2600 60  0001 C CNN "Manf"
+F 6 "MCT06030C1001FP500" V 2150 2600 60  0001 C CNN "Manf#"
 	1    2150 2600
 	-1   0    0    1   
 $EndComp
@@ -199,12 +219,12 @@ $EndComp
 $Comp
 L GND #PWR02
 U 1 1 596D83A5
-P 3350 2950
-F 0 "#PWR02" H 3350 2700 50  0001 C CNN
-F 1 "GND" H 3250 2850 50  0000 C CNN
-F 2 "" H 3350 2950 50  0000 C CNN
-F 3 "" H 3350 2950 50  0000 C CNN
-	1    3350 2950
+P 3250 3000
+F 0 "#PWR02" H 3250 2750 50  0001 C CNN
+F 1 "GND" H 3150 2900 50  0000 C CNN
+F 2 "" H 3250 3000 50  0000 C CNN
+F 3 "" H 3250 3000 50  0000 C CNN
+	1    3250 3000
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -248,16 +268,6 @@ Text Label 3300 2650 2    60   ~ 0
 D+
 Text Label 9000 4450 0    60   ~ 0
 D+
-Text Label 6150 1750 0    60   ~ 0
-DIN
-Text Label 6150 1950 0    60   ~ 0
-DOUT
-Text Label 6150 2150 0    60   ~ 0
-RTS_XBEE
-Text Label 6150 2350 0    60   ~ 0
-CTS_XBEE
-Text Label 6150 2550 0    60   ~ 0
-DTS_XBEE
 $Comp
 L GND #PWR05
 U 1 1 596FB66D
@@ -277,29 +287,32 @@ F 0 "U2" H 5700 5150 60  0000 C CNN
 F 1 "MIC5219-3.3BM5" H 5750 4350 60  0000 C CNN
 F 2 "TO_SOT_Packages_SMD:TSOT-23-5_HandSoldering" H 5700 4750 60  0001 C CNN
 F 3 "" H 5700 4750 60  0000 C CNN
+F 4 "MIC5219-3.3BM5-TR-ND" H 5700 4750 60  0001 C CNN "Digikey#"
+F 5 "Microchip Technology" H 5700 4750 60  0001 C CNN "Manf"
+F 6 "MIC5219-3.3BM5-TR" H 5700 4750 60  0001 C CNN "Manf#"
 	1    5700 4750
 	1    0    0    -1  
 $EndComp
 $Comp
 L +5V #PWR06
 U 1 1 5972BCCC
-P 5150 4500
-F 0 "#PWR06" H 5150 4350 50  0001 C CNN
-F 1 "+5V" H 5150 4640 50  0000 C CNN
-F 2 "" H 5150 4500 50  0000 C CNN
-F 3 "" H 5150 4500 50  0000 C CNN
-	1    5150 4500
+P 4450 4500
+F 0 "#PWR06" H 4450 4350 50  0001 C CNN
+F 1 "+5V" H 4450 4640 50  0000 C CNN
+F 2 "" H 4450 4500 50  0000 C CNN
+F 3 "" H 4450 4500 50  0000 C CNN
+	1    4450 4500
 	1    0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR07
 U 1 1 5972BDCD
-P 6600 4550
-F 0 "#PWR07" H 6600 4400 50  0001 C CNN
-F 1 "+3.3V" H 6600 4690 50  0000 C CNN
-F 2 "" H 6600 4550 50  0000 C CNN
-F 3 "" H 6600 4550 50  0000 C CNN
-	1    6600 4550
+P 6750 4550
+F 0 "#PWR07" H 6750 4400 50  0001 C CNN
+F 1 "+3.3V" H 6750 4690 50  0000 C CNN
+F 2 "" H 6750 4550 50  0000 C CNN
+F 3 "" H 6750 4550 50  0000 C CNN
+	1    6750 4550
 	1    0    0    -1  
 $EndComp
 $Comp
@@ -316,47 +329,56 @@ $EndComp
 $Comp
 L CP1 C5
 U 1 1 597325C7
-P 6450 4700
-F 0 "C5" H 6475 4800 50  0000 L CNN
-F 1 "10uF" H 6475 4600 50  0000 L CNN
-F 2 "Capacitors_SMD:CP_Elec_8x10" H 6450 4700 50  0001 C CNN
-F 3 "" H 6450 4700 50  0000 C CNN
-	1    6450 4700
+P 6600 4700
+F 0 "C5" H 6625 4800 50  0000 L CNN
+F 1 "10uF" H 6625 4600 50  0000 L CNN
+F 2 "Capacitors_SMD:CP_Elec_8x10" H 6600 4700 50  0001 C CNN
+F 3 "" H 6600 4700 50  0000 C CNN
+F 4 "493-14027-2-ND" H 6600 4700 60  0001 C CNN "Digikey#"
+F 5 "Nichicon" H 6600 4700 60  0001 C CNN "Manf"
+F 6 "PCF1E100MCL1GS" H 6600 4700 60  0001 C CNN "Manf#"
+	1    6600 4700
 	1    0    0    -1  
 $EndComp
 $Comp
 L C C6
 U 1 1 597326E3
-P 6750 4700
-F 0 "C6" H 6775 4800 50  0000 L CNN
-F 1 "0.1uF" H 6775 4600 50  0000 L CNN
-F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6788 4550 50  0001 C CNN
-F 3 "" H 6750 4700 50  0000 C CNN
-	1    6750 4700
+P 6900 4700
+F 0 "C6" H 6925 4800 50  0000 L CNN
+F 1 "0.1uF" H 6925 4600 50  0000 L CNN
+F 2 "Capacitors_SMD:C_0603_HandSoldering" H 6938 4550 50  0001 C CNN
+F 3 "" H 6900 4700 50  0000 C CNN
+F 4 "311-1343-1-ND" H 6900 4700 60  0001 C CNN "Digikey#"
+F 5 "Yageo" H 6900 4700 60  0001 C CNN "Manf"
+F 6 "CC0603ZRY5V9BB104" H 6900 4700 60  0001 C CNN "Manf#"
+	1    6900 4700
 	1    0    0    -1  
 $EndComp
 NoConn ~ 6200 4950
 $Comp
 L GND #PWR09
 U 1 1 59732AB0
-P 6750 5000
-F 0 "#PWR09" H 6750 4750 50  0001 C CNN
-F 1 "GND" H 6750 4850 50  0000 C CNN
-F 2 "" H 6750 5000 50  0000 C CNN
-F 3 "" H 6750 5000 50  0000 C CNN
-	1    6750 5000
+P 6900 4950
+F 0 "#PWR09" H 6900 4700 50  0001 C CNN
+F 1 "GND" H 6900 4800 50  0000 C CNN
+F 2 "" H 6900 4950 50  0000 C CNN
+F 3 "" H 6900 4950 50  0000 C CNN
+	1    6900 4950
 	1    0    0    -1  
 $EndComp
 $Comp
 L LED D3
 U 1 1 5973B26D
-P 8000 3000
-F 0 "D3" H 8000 3100 50  0000 C CNN
-F 1 "LED VERDE" H 8000 2900 50  0000 C CNN
-F 2 "LEDs:LED_0603_HandSoldering" H 8000 3000 50  0001 C CNN
-F 3 "" H 8000 3000 50  0000 C CNN
-	1    8000 3000
-	0    -1   -1   0   
+P 10300 3350
+F 0 "D3" H 10300 3450 50  0000 C CNN
+F 1 "LED VERDE" H 10300 3250 50  0000 C CNN
+F 2 "LEDs:LED_0603_HandSoldering" H 10300 3350 50  0001 C CNN
+F 3 "" H 10300 3350 50  0000 C CNN
+F 4 "475-2920-1-ND" H 10300 3350 60  0001 C CNN "Digikey#"
+F 5 "OSRAM Opto Semiconductors Inc." H 10300 3350 60  0001 C CNN "Manf"
+F 6 "LP L296-J2L2-25-Z" H 10300 3350 60  0001 C CNN "Manf#"
+	1    10300 3350
+	0    1    -1   0   
 $EndComp
 $Comp
 L LED D4
@@ -366,19 +388,22 @@ F 0 "D4" H 9400 5000 50  0000 C CNN
 F 1 "LED ROJO" H 9400 4800 50  0000 C CNN
 F 2 "LEDs:LED_0603_HandSoldering" H 9400 4900 50  0001 C CNN
 F 3 "" H 9400 4900 50  0000 C CNN
+F 4 "475-2512-1-ND" H 9400 4900 60  0001 C CNN "Digikey#"
+F 5 "OSRAM Opto Semiconductors Inc." H 9400 4900 60  0001 C CNN "Manf"
+F 6 "LS Q976-NR-1" H 9400 4900 60  0001 C CNN "Manf#"
 	1    9400 4900
 	0    -1   -1   0   
 $EndComp
 $Comp
 L R R5
 U 1 1 5973DA17
-P 8000 2600
-F 0 "R5" V 8080 2600 50  0000 C CNN
-F 1 "330" V 8000 2600 50  0000 C CNN
-F 2 "Resistors_SMD:R_0603_HandSoldering" V 7930 2600 50  0001 C CNN
-F 3 "" H 8000 2600 50  0000 C CNN
-	1    8000 2600
-	1    0    0    -1  
+P 10300 2950
+F 0 "R5" V 10380 2950 50  0000 C CNN
+F 1 "330" V 10300 2950 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603_HandSoldering" V 10230 2950 50  0001 C CNN
+F 3 "" H 10300 2950 50  0000 C CNN
+	1    10300 2950
+	-1   0    0    -1  
 $EndComp
 $Comp
 L R R6
@@ -388,19 +413,25 @@ F 0 "R6" V 9480 4450 50  0000 C CNN
 F 1 "1k" V 9400 4450 50  0000 C CNN
 F 2 "Resistors_SMD:R_0603_HandSoldering" V 9330 4450 50  0001 C CNN
 F 3 "" H 9400 4450 50  0000 C CNN
+F 4 "MCT0603-1.00K-CFTR-ND" V 9400 4450 60  0001 C CNN "Digikey#"
+F 5 "Vishay Beyschlag" V 9400 4450 60  0001 C CNN "Manf"
+F 6 "MCT06030C1001FP500" V 9400 4450 60  0001 C CNN "Manf#"
 	1    9400 4450
 	1    0    0    -1  
 $EndComp
 $Comp
 L SPST SW501
 U 1 1 5973EC50
-P 7650 2850
-F 0 "SW501" H 7650 2950 50  0000 C CNN
-F 1 "SPST" H 7650 2750 50  0000 C CNN
-F 2 "Measurement_Points:Test_Point_2Pads" H 7650 2850 50  0001 C CNN
-F 3 "" H 7650 2850 50  0000 C CNN
-	1    7650 2850
-	0    -1   -1   0   
+P 10650 3200
+F 0 "SW501" H 10650 3300 50  0000 C CNN
+F 1 "SPST" H 10650 3100 50  0000 C CNN
+F 2 "Measurement_Points:Test_Point_2Pads" H 10650 3200 50  0001 C CNN
+F 3 "" H 10650 3200 50  0000 C CNN
+F 4 "952-1938-ND" H 10650 3200 60  0001 C CNN "Digikey#"
+F 5 "Harwin Inc." H 10650 3200 60  0001 C CNN "Manf"
+F 6 "D01-9973242" H 10650 3200 60  0001 C CNN "Manf#"
+	1    10650 3200
+	0    1    -1   0   
 $EndComp
 $Comp
 L +5V #PWR010
@@ -416,88 +447,80 @@ $EndComp
 $Comp
 L GND #PWR011
 U 1 1 59744849
-P 8000 3400
-F 0 "#PWR011" H 8000 3150 50  0001 C CNN
-F 1 "GND" H 8000 3250 50  0000 C CNN
-F 2 "" H 8000 3400 50  0000 C CNN
-F 3 "" H 8000 3400 50  0000 C CNN
-	1    8000 3400
-	1    0    0    -1  
+P 10300 3750
+F 0 "#PWR011" H 10300 3500 50  0001 C CNN
+F 1 "GND" H 10300 3600 50  0000 C CNN
+F 2 "" H 10300 3750 50  0000 C CNN
+F 3 "" H 10300 3750 50  0000 C CNN
+	1    10300 3750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR012
 U 1 1 5974491B
-P 9400 5150
-F 0 "#PWR012" H 9400 4900 50  0001 C CNN
-F 1 "GND" H 9400 5000 50  0000 C CNN
-F 2 "" H 9400 5150 50  0000 C CNN
-F 3 "" H 9400 5150 50  0000 C CNN
-	1    9400 5150
+P 9400 5200
+F 0 "#PWR012" H 9400 4950 50  0001 C CNN
+F 1 "GND" H 9400 5050 50  0000 C CNN
+F 2 "" H 9400 5200 50  0000 C CNN
+F 3 "" H 9400 5200 50  0000 C CNN
+	1    9400 5200
 	1    0    0    -1  
 $EndComp
 $Comp
 L GND #PWR013
 U 1 1 597449E6
-P 7650 3400
-F 0 "#PWR013" H 7650 3150 50  0001 C CNN
-F 1 "GND" H 7650 3250 50  0000 C CNN
-F 2 "" H 7650 3400 50  0000 C CNN
-F 3 "" H 7650 3400 50  0000 C CNN
-	1    7650 3400
-	1    0    0    -1  
+P 10650 3750
+F 0 "#PWR013" H 10650 3500 50  0001 C CNN
+F 1 "GND" H 10650 3600 50  0000 C CNN
+F 2 "" H 10650 3750 50  0000 C CNN
+F 3 "" H 10650 3750 50  0000 C CNN
+	1    10650 3750
+	-1   0    0    -1  
 $EndComp
 $Comp
 L XB24-Z7WIT-004 U4
 U 1 1 5974CCC4
-P 9450 2350
-F 0 "U4" H 9400 2750 50  0000 L BNN
-F 1 "XB24-Z7WIT-004" H 9450 2350 50  0001 L BNN
-F 2 "Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm" H 9450 2350 50  0001 L BNN
-F 3 "DIP-20 Digi International" H 9450 2350 50  0001 L BNN
-F 4 "XB24-Z7WIT-004" H 9450 2350 50  0001 L BNN "MP"
-F 5 "Xbee Zb %28Zigbee Pro Feature Set%29%2C 1mw%2C Wire Antenna%2C 250000" H 9450 2350 50  0001 L BNN "Description"
-F 6 "Unavailable" H 9450 2350 50  0001 L BNN "Availability"
-F 7 "Digi International" H 9450 2350 50  0001 L BNN "MF"
-F 8 "None" H 9450 2350 50  0001 L BNN "Price"
-	1    9450 2350
-	1    0    0    -1  
+P 8850 2700
+F 0 "U4" H 8800 3100 50  0000 L BNN
+F 1 "XB24-Z7WIT-004" H 8850 2700 50  0001 L BNN
+F 2 "Housings_SOIC:SOIC-20W_7.5x12.8mm_Pitch1.27mm" H 8850 2700 50  0001 L BNN
+F 3 "DIP-20 Digi International" H 8850 2700 50  0001 L BNN
+F 4 "Xbee Zb %28Zigbee Pro Feature Set%29%2C 1mw%2C Wire Antenna%2C 250000" H 8850 2700 50  0001 L BNN "Description"
+F 5 "Unavailable" H 8850 2700 50  0001 L BNN "Availability"
+F 6 "602-1098-ND" H 8850 2700 60  0001 C CNN "Digikey#"
+F 7 "Digi International" H 8850 2700 60  0001 C CNN "Manf"
+F 8 "XB24-Z7WIT-004" H 8850 2700 60  0001 C CNN "Manf#"
+	1    8850 2700
+	-1   0    0    -1  
 $EndComp
 $Comp
 L +3.3V #PWR014
 U 1 1 5974E46F
-P 8750 1900
-F 0 "#PWR014" H 8750 1750 50  0001 C CNN
-F 1 "+3.3V" H 8750 2040 50  0000 C CNN
-F 2 "" H 8750 1900 50  0000 C CNN
-F 3 "" H 8750 1900 50  0000 C CNN
-	1    8750 1900
-	1    0    0    -1  
+P 9550 2250
+F 0 "#PWR014" H 9550 2100 50  0001 C CNN
+F 1 "+3.3V" H 9550 2390 50  0000 C CNN
+F 2 "" H 9550 2250 50  0000 C CNN
+F 3 "" H 9550 2250 50  0000 C CNN
+	1    9550 2250
+	-1   0    0    -1  
 $EndComp
-Text Label 8850 2050 2    60   ~ 0
-DOUT
-Text Label 8850 2150 2    60   ~ 0
-DIN
-Text Label 10050 2350 0    60   ~ 0
-RTS_XBEE
-Text Label 10050 2750 0    60   ~ 0
-CTS_XBEE
 NoConn ~ 4250 2950
 NoConn ~ 4250 3550
 NoConn ~ 6050 3300
 NoConn ~ 6050 3150
 NoConn ~ 6050 2950
 NoConn ~ 6050 2750
-NoConn ~ 8850 2250
-NoConn ~ 8850 2550
-NoConn ~ 8850 2650
-NoConn ~ 10050 1950
-NoConn ~ 10050 2050
-NoConn ~ 10050 2150
-NoConn ~ 10050 2250
-NoConn ~ 10050 2450
-NoConn ~ 10050 2550
-NoConn ~ 10050 2650
-NoConn ~ 10050 2850
+NoConn ~ 9450 2600
+NoConn ~ 9450 2900
+NoConn ~ 9450 3000
+NoConn ~ 8250 2300
+NoConn ~ 8250 2400
+NoConn ~ 8250 2500
+NoConn ~ 8250 2600
+NoConn ~ 8250 2800
+NoConn ~ 8250 2900
+NoConn ~ 8250 3000
+NoConn ~ 8250 3200
 $Comp
 L Conn_Poncho2P_2x_20x2 XA1
 U 1 1 596BA6AF
@@ -506,15 +529,12 @@ F 0 "XA1" H 2950 5300 60  0000 C CNN
 F 1 "Conn_Poncho2P_2x_20x2" H 3000 3200 60  0000 C CNN
 F 2 "pf:Conn_Poncho_Derecha" H 2650 4900 60  0001 C CNN
 F 3 "" H 2650 4900 60  0000 C CNN
+F 4 "952-1938-ND" H 2650 4900 60  0001 C CNN "Digikey#"
+F 5 "Harwin Inc." H 2650 4900 60  0001 C CNN "Manf"
+F 6 "D01-9973242" H 2650 4900 60  0001 C CNN "Manf#"
 	1    2650 4900
 	1    0    0    -1  
 $EndComp
-Text Label 9400 1550 2    60   ~ 0
-DTS_XBEE
-Text Label 9700 1550 0    60   ~ 0
-DTR_XBEE
-Text Label 8850 2750 2    60   ~ 0
-DTR_XBEE
 NoConn ~ 2400 4700
 NoConn ~ 2400 4800
 NoConn ~ 2400 4900
@@ -537,12 +557,12 @@ NoConn ~ 8850 4550
 $Comp
 L PWR_FLAG #FLG015
 U 1 1 596C711A
-P 3850 1750
-F 0 "#FLG015" H 3850 1845 50  0001 C CNN
-F 1 "PWR_FLAG" H 3850 1930 50  0000 C CNN
-F 2 "" H 3850 1750 50  0000 C CNN
-F 3 "" H 3850 1750 50  0000 C CNN
-	1    3850 1750
+P 5150 4500
+F 0 "#FLG015" H 5150 4595 50  0001 C CNN
+F 1 "PWR_FLAG" H 5150 4680 50  0000 C CNN
+F 2 "" H 5150 4500 50  0000 C CNN
+F 3 "" H 5150 4500 50  0000 C CNN
+	1    5150 4500
 	1    0    0    -1  
 $EndComp
 Text Label 2400 5700 2    60   ~ 0
@@ -600,13 +620,13 @@ $EndComp
 $Comp
 L GND #PWR017
 U 1 1 5979EBD6
-P 8850 2900
-F 0 "#PWR017" H 8850 2650 50  0001 C CNN
-F 1 "GND" H 8850 2750 50  0000 C CNN
-F 2 "" H 8850 2900 50  0000 C CNN
-F 3 "" H 8850 2900 50  0000 C CNN
-	1    8850 2900
-	1    0    0    -1  
+P 9450 3250
+F 0 "#PWR017" H 9450 3000 50  0001 C CNN
+F 1 "GND" H 9450 3100 50  0000 C CNN
+F 2 "" H 9450 3250 50  0000 C CNN
+F 3 "" H 9450 3250 50  0000 C CNN
+	1    9450 3250
+	-1   0    0    -1  
 $EndComp
 $Comp
 L GND #PWR018
@@ -619,8 +639,6 @@ F 3 "" H 3750 4700 50  0000 C CNN
 	1    3750 4700
 	1    0    0    -1  
 $EndComp
-Text Notes 8500 1350 0    60   ~ 0
-Aclaracion\nEl pin (18) DTR# en FT231XS es DTS_XBEE \nes la misma coneccion del pin (9) DTR_XBEE\nen Xbee
 NoConn ~ 2400 6300
 NoConn ~ 3600 6300
 NoConn ~ 3600 6200
@@ -665,48 +683,25 @@ Connection ~ 3350 2650
 Wire Wire Line
 	9000 4450 8850 4450
 Wire Wire Line
-	6150 1750 6050 1750
-Wire Wire Line
-	6150 1950 6050 1950
-Wire Wire Line
-	6150 2150 6050 2150
-Wire Wire Line
-	6150 2350 6050 2350
-Wire Wire Line
-	6150 2550 6050 2550
-Wire Wire Line
 	6200 3550 6050 3550
 Wire Wire Line
 	9000 4650 8850 4650
 Wire Wire Line
-	4900 4950 5200 4950
-Wire Wire Line
-	6200 4550 6750 4550
-Connection ~ 6450 4550
-Connection ~ 6600 4550
-Wire Wire Line
-	6750 4850 6450 4850
-Wire Wire Line
-	6750 5000 6750 4850
+	4400 4950 5200 4950
 Wire Wire Line
 	9400 4700 9400 4600
 Wire Wire Line
 	9400 4300 9400 4200
 Wire Wire Line
-	9400 5100 9400 5150
+	9450 2300 9550 2300
 Wire Wire Line
-	8850 1950 8750 1950
-Wire Wire Line
-	8750 1950 8750 1900
-Wire Wire Line
-	9700 1550 9400 1550
+	9550 2300 9550 2250
 Wire Wire Line
 	3600 4900 3600 5400
 Connection ~ 3600 5000
 Connection ~ 3600 5100
 Connection ~ 3600 5200
 Connection ~ 3600 5300
-Connection ~ 4150 1850
 Wire Notes Line
 	2200 1350 1000 1350
 Wire Notes Line
@@ -734,10 +729,6 @@ Wire Wire Line
 Wire Wire Line
 	4150 1750 4150 1950
 Wire Wire Line
-	3850 1750 3850 1850
-Wire Wire Line
-	3850 1850 4150 1850
-Wire Wire Line
 	3300 1450 3300 1750
 Wire Wire Line
 	2150 2450 2450 2450
@@ -752,8 +743,6 @@ Wire Wire Line
 	4250 2750 4250 2650
 Wire Wire Line
 	4250 2650 3900 2650
-Wire Wire Line
-	3100 2950 3350 2950
 Wire Wire Line
 	4250 3150 2450 3150
 Wire Wire Line
@@ -770,14 +759,7 @@ Connection ~ 3600 5800
 Connection ~ 3600 5700
 Connection ~ 3600 5600
 Wire Wire Line
-	8850 2850 8850 2900
-Wire Wire Line
-	4900 4550 5200 4550
-Wire Wire Line
-	5150 4550 5150 4500
-Wire Wire Line
-	4900 4950 4900 4550
-Connection ~ 5150 4550
+	9450 3200 9450 3250
 Wire Wire Line
 	5200 4800 5200 4750
 Wire Wire Line
@@ -788,24 +770,16 @@ Wire Wire Line
 	3650 4550 3650 4600
 Wire Wire Line
 	3650 4600 3600 4600
-Wire Notes Line
-	8450 950  8450 1600
-Wire Notes Line
-	8450 1600 10600 1600
-Wire Notes Line
-	10600 1600 10600 950 
-Wire Notes Line
-	10600 950  8450 950 
 Wire Wire Line
-	7650 3350 7650 3400
+	10650 3700 10650 3750
 Wire Wire Line
-	8000 3200 8000 3400
+	10300 3550 10300 3750
 Wire Wire Line
-	8000 2750 8000 2800
+	10300 3100 10300 3150
 Wire Wire Line
-	8850 2450 8000 2450
+	9450 2800 10300 2800
 Wire Wire Line
-	8850 2350 7650 2350
+	9450 2700 10650 2700
 Wire Wire Line
 	8850 4250 9750 4250
 Connection ~ 9400 4250
@@ -814,7 +788,140 @@ Wire Wire Line
 Wire Wire Line
 	9750 4250 9750 4450
 Wire Wire Line
+	8250 2700 8200 2700
+Wire Wire Line
+	8100 3100 8250 3100
+Wire Wire Line
+	9450 2400 9600 2400
+Wire Wire Line
+	9600 2400 9700 2300
+Wire Wire Line
+	9700 2300 9700 2050
+Wire Wire Line
+	9700 2050 9600 1950
+Wire Wire Line
+	9600 1950 6050 1950
+Wire Wire Line
+	9700 1750 6050 1750
+Wire Wire Line
+	9800 2400 9800 1850
+Wire Wire Line
+	9700 2500 9450 2500
+Wire Wire Line
+	9700 2500 9800 2400
+Wire Wire Line
+	9800 1850 9700 1750
+Wire Wire Line
+	8100 2600 7600 2150
+Wire Wire Line
+	7600 2150 6050 2150
+Wire Wire Line
+	7350 2350 8100 3100
+Wire Wire Line
+	7350 2350 6050 2350
+Wire Wire Line
+	8200 2700 8100 2600
+Text Label 6050 1950 0    60   ~ 0
+DOUT
+Text Label 6050 1750 0    60   ~ 0
+DIN
+Text Label 6100 2550 0    60   ~ 0
+DTS_DTR_XBEE
+Text Label 9500 3100 0    60   ~ 0
+DTS_DTR_XBEE
+Wire Wire Line
+	9450 3100 9500 3100
+Wire Wire Line
+	6050 2550 6100 2550
+$Comp
+L CONN_01X02 P1
+U 1 1 59877D35
+P 4750 4350
+F 0 "P1" H 4750 4500 50  0000 C CNN
+F 1 "CONN_01X02" V 4850 4350 50  0000 C CNN
+F 2 "" H 4750 4350 50  0000 C CNN
+F 3 "" H 4750 4350 50  0000 C CNN
+F 4 "952-1938-ND" H 4750 4350 60  0001 C CNN "Digikey#"
+F 5 "Harwin Inc." H 4750 4350 60  0001 C CNN "Manf"
+F 6 "D01-9973242" H 4750 4350 60  0001 C CNN "Manf#"
+	1    4750 4350
+	0    -1   -1   0   
+$EndComp
+$Comp
+L CONN_01X02 P2
+U 1 1 59877E1B
+P 6350 4350
+F 0 "P2" H 6350 4500 50  0000 C CNN
+F 1 "CONN_01X02" V 6450 4350 50  0000 C CNN
+F 2 "" H 6350 4350 50  0000 C CNN
+F 3 "" H 6350 4350 50  0000 C CNN
+F 4 "952-1938-ND" H 6350 4350 60  0001 C CNN "Digikey#"
+F 5 "Harwin Inc." H 6350 4350 60  0001 C CNN "Manf"
+F 6 "D01-9973242" H 6350 4350 60  0001 C CNN "Manf#"
+	1    6350 4350
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4800 4550 5200 4550
+Wire Wire Line
+	4700 4550 4400 4550
+Wire Wire Line
+	4400 4550 4400 4950
+Wire Wire Line
+	4450 4500 4450 4550
+Connection ~ 4450 4550
+Connection ~ 6600 4550
+Wire Wire Line
+	6300 4550 6200 4550
+Wire Wire Line
+	6400 4550 6900 4550
+Connection ~ 6750 4550
+Connection ~ 5150 4550
+Wire Wire Line
+	5150 4550 5150 4500
+Connection ~ 9400 5150
+Wire Wire Line
+	9400 5100 9400 5200
+Wire Wire Line
 	9400 5150 9750 5150
 Wire Wire Line
 	9750 5150 9750 4750
+Connection ~ 3250 2950
+Wire Wire Line
+	3250 3000 3250 2950
+Wire Wire Line
+	3100 2950 3350 2950
+Connection ~ 6900 4900
+Wire Wire Line
+	6600 4850 6600 4900
+Wire Wire Line
+	6600 4900 6900 4900
+Wire Wire Line
+	6900 4850 6900 4950
+Text Notes 4750 5900 0    60   ~ 0
+P1 y P2 se colocan para el uso del poncho\nsin la EDU-CIAA-NXP.\nSe alimentara por USB y se debera unir los \npines 1 y 2 de P1 \ny los pines 1 y 2 de P2.
+Wire Notes Line
+	4700 5400 4700 6000
+Wire Notes Line
+	4700 6000 6900 6000
+Wire Notes Line
+	6900 6000 6900 5400
+Wire Notes Line
+	6900 5400 4700 5400
+Wire Notes Line
+	4700 4600 4700 4650
+Wire Notes Line
+	4700 4650 4800 4650
+Wire Notes Line
+	4800 4650 4800 4600
+Wire Notes Line
+	4750 4650 5350 5400
+Wire Notes Line
+	6300 4600 6300 4650
+Wire Notes Line
+	6300 4650 6400 4650
+Wire Notes Line
+	6400 4650 6400 4600
+Wire Notes Line
+	6350 4650 6300 5400
 $EndSCHEMATC
