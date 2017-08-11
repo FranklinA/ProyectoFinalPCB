@@ -1,7 +1,7 @@
 (export (version D)
   (design
     (source /Users/franklinangulo/Documents/ProyectoFinalPCB/ProFinalKicadV1.sch)
-    (date "Thursday, 10 '10e' August '10e' 2017, 11:15:11 PM")
+    (date "Friday, 11 '11e' August '11e' 2017, 01:46:41 PM")
     (tool "Eeschema 4.0.4-stable")
     (sheet (number 1) (name /) (tstamps /)
       (title_block
@@ -237,7 +237,7 @@
       (tstamp 5974CCC4))
     (comp (ref XA1)
       (value Conn_Poncho2P_2x_20x2)
-      (footprint pf:Conn_Poncho_Derecha)
+      (footprint CESE_pretty:Conn_Poncho_Derecha)
       (fields
         (field (name Digikey#) 952-1938-ND)
         (field (name Manf) "Harwin Inc.")
@@ -247,7 +247,7 @@
       (tstamp 596BA6AF))
     (comp (ref P1)
       (value CONN_01X02)
-      (footprint w_pin_strip.pretty:pin_socket_2)
+      (footprint P1P2_EDU_pin_strip_pretty:pin_strip_2mm_2)
       (fields
         (field (name Digikey#) 952-1938-ND)
         (field (name Manf) "Harwin Inc.")
@@ -257,7 +257,7 @@
       (tstamp 59877D35))
     (comp (ref P2)
       (value CONN_01X02)
-      (footprint w_pin_strip.pretty:pin_socket_2)
+      (footprint P1P2_EDU_pin_strip_pretty:pin_strip_2mm_2)
       (fields
         (field (name Digikey#) 952-1938-ND)
         (field (name Manf) "Harwin Inc.")
@@ -528,10 +528,10 @@
         (pin (num 19) (name 19) (type BiDi))
         (pin (num 20) (name 20) (type BiDi)))))
   (libraries
-    (library (logical ProFinalKicadV1-cache)
-      (uri /Users/franklinangulo/Documents/ProyectoFinalPCB/pf.libs/ProFinalKicadV1-cache.lib))
     (library (logical device)
       (uri "/Library/Application Support/kicad/library/device.lib"))
+    (library (logical ProFinalKicadV1-cache)
+      (uri /Users/franklinangulo/Documents/ProyectoFinalPCB/pf.libs/ProFinalKicadV1-cache.lib))
     (library (logical conn)
       (uri "/Library/Application Support/kicad/library/conn.lib")))
   (nets
